@@ -37,10 +37,15 @@
                                 <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nhV-45-UVY">
+                                <rect key="frame" x="172" y="499" width="51" height="31"/>
+                            </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Xgq-4G-Zst"/>
                         <color key="backgroundColor" systemColor="systemRedColor"/>
                         <constraints>
+                            <constraint firstItem="nhV-45-UVY" firstAttribute="top" secondItem="nYY-HB-FuL" secondAttribute="bottom" constant="62.333333333333314" id="GHc-l0-wuO"/>
+                            <constraint firstItem="nhV-45-UVY" firstAttribute="centerX" secondItem="HgG-l3-DwA" secondAttribute="centerX" id="V12-T2-IJ0"/>
                             <constraint firstItem="nYY-HB-FuL" firstAttribute="centerX" secondItem="HgG-l3-DwA" secondAttribute="centerX" id="j39-eZ-rn3"/>
                             <constraint firstItem="nYY-HB-FuL" firstAttribute="centerY" secondItem="HgG-l3-DwA" secondAttribute="centerY" id="rFF-wy-aCW"/>
                         </constraints>
