@@ -40,14 +40,22 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nhV-45-UVY">
                                 <rect key="frame" x="172" y="499" width="51" height="31"/>
                             </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rlj-yj-9Ub">
+                                <rect key="frame" x="160" y="570" width="73" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Xgq-4G-Zst"/>
                         <color key="backgroundColor" systemColor="systemRedColor"/>
                         <constraints>
+                            <constraint firstItem="rlj-yj-9Ub" firstAttribute="top" secondItem="nhV-45-UVY" secondAttribute="bottom" constant="40" id="CY0-MY-7hU"/>
                             <constraint firstItem="nhV-45-UVY" firstAttribute="top" secondItem="nYY-HB-FuL" secondAttribute="bottom" constant="62.333333333333314" id="GHc-l0-wuO"/>
                             <constraint firstItem="nhV-45-UVY" firstAttribute="centerX" secondItem="HgG-l3-DwA" secondAttribute="centerX" id="V12-T2-IJ0"/>
                             <constraint firstItem="nYY-HB-FuL" firstAttribute="centerX" secondItem="HgG-l3-DwA" secondAttribute="centerX" id="j39-eZ-rn3"/>
                             <constraint firstItem="nYY-HB-FuL" firstAttribute="centerY" secondItem="HgG-l3-DwA" secondAttribute="centerY" id="rFF-wy-aCW"/>
+                            <constraint firstItem="rlj-yj-9Ub" firstAttribute="centerX" secondItem="HgG-l3-DwA" secondAttribute="centerX" id="u9a-nO-NEA"/>
                         </constraints>
                     </view>
                 </viewController>
