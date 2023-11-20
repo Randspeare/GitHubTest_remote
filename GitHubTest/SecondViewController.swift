@@ -14,6 +14,7 @@ class SecondViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         print("Second View Controller")
+        print("Add Label")
     }
     
 
