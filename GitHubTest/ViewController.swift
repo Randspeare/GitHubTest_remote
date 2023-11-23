@@ -10,8 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     var name = "Ping"
-    
-    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Hello world!")
